@@ -1,38 +1,188 @@
-.App {
+body {
+  background-image: url("pics/NFL.png");
+}
+
+.score-card {
+  text-align: right;
+  margin-right: 20px;
+  margin-top: -100px;
+  margin-bottom: 150px;
+}
+
+.score-card-td {
+  margin-bottom: -19px;
+}
+
+/* .box {
+  position: relative;
+} */
+/* .bottom {
+  position: absolute;
+  bottom: 12px;
+  left: 12px;
+} */
+
+.pos {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+/* .btn-specs {
+  background-image: url("https://previews.123rf.com/images/scenery1/scenery11709/scenery1170900111/85358108-natural-background-of-green-grass-small-grass-football-ground.jpg?fj=1");
   color: white;
+  height: 40px;
+  width: 170px;
+  font-size: 25px;
+} */
+
+.pass {
+  font-size: 90px;
+  margin-top: 30px;
 }
 
-.App-link {
-  color: #61dafb;
+.pass-d {
+  margin-top: 2px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.font-p {
+  color: #825736;
+}
+
+.font-card {
+  color: #fad25a;
+}
+
+/* .btn-Eq {
+  background-image: url("https://media.istockphoto.com/photos/football-pigskin-background-texture-picture-id184624285?k=20&m=184624285&s=170667a&w=0&h=4jrNLSCNx1Pw0lRfoFZEgbcqG5tyWSMXkoJVTs41_Vw=");
+  color: white;
+  margin-left: 20px;
+  height: 50px;
+  width: 260px;
+  font-size: 25px;
+} */
+
+.logo {
+  height: 130px;
+  width: Auto;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.Eq-card {
+  text-align: left;
+  margin-left: 20px;
+}
+
+.Eq-p {
+  margin-left: 75px;
+}
+
+.Eq-d {
+  margin-left: 28px;
+  margin-top: 5px;
+}
+
+/* Equip btn */
+.btn-Eq {
+  align-items: center;
+  appearance: none;
+  background-image: url("https://media.istockphoto.com/photos/football-pigskin-background-texture-picture-id184624285?k=20&m=184624285&s=170667a&w=0&h=4jrNLSCNx1Pw0lRfoFZEgbcqG5tyWSMXkoJVTs41_Vw=");
+  border-radius: 4px;
+  border-width: 0;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #825736 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono", monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow 0.15s, transform 0.15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow, transform;
+  font-size: 22px;
+  font-weight: 800;
+  margin-left: 20px;
+  height: 50px;
+  width: 260px;
+}
+
+.btn-Eq:focus {
+  box-shadow: #d6d6e7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
+}
+
+.btn-Eq:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.btn-Eq:active {
+  box-shadow: #d6d6e7 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+/* pass btn*/
+
+.btn-specs {
+  align-items: center;
+  appearance: none;
+  background-image: url("https://previews.123rf.com/images/scenery1/scenery11709/scenery1170900111/85358108-natural-background-of-green-grass-small-grass-football-ground.jpg?fj=1");
+  border-radius: 4px;
+  border-width: 0;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, green 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono", monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow 0.15s, transform 0.15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow, transform;
+  font-weight: 800;
+  height: 40px;
+  width: 170px;
+  font-size: 21px;
+}
+
+.btn-specs:focus {
+  box-shadow: #d6d6e7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
+}
+
+.btn-specs:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.btn-specs:active {
+  box-shadow: #d6d6e7 0 3px 7px inset;
+  transform: translateY(2px);
 }
