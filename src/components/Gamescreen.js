@@ -1,4 +1,7 @@
 import { useState } from "react";
+import Ft from "./pics/Ft.png";
+import logo from "./pics/logo.png";
+
 
 function GameScreen() {
     const [pass, setPass] = useState(0);
@@ -20,7 +23,7 @@ function GameScreen() {
     const B = () => {
         setTouchDown(touchDown - 2);
         setBuilding(building + 2);
-        setEQ(pass + (building * 3));
+        setEQ(pass + (building * 2));
     }
 
     const check = () => {
@@ -37,10 +40,10 @@ function GameScreen() {
 
   return (
     <div>
-        <img className="logo" src="https://flyclipart.com/thumb2/oakland-raiders-font-download-211944.png" alt="Raiders Logo"></img>
+        <img className="logo" src={logo} alt="Raiders Logo"></img>
         <div className="score-card">
             <h3 className="font-card score-card-td">Touchdowns</h3>
-            <h1 className="font-card">{<img src="https://w7.pngwing.com/pngs/229/603/png-transparent-american-football-football-sport-sports-equipment-sports.png" alt="NFL Football" width="50" height="50"></img>}X {touchDown}</h1>
+            <h1 className="font-card">{<img src={Ft} alt="NFL Football" width="50" height="50"></img>}X {touchDown}</h1>
         </div>
         <div className="pos">
             <div className="font-p pass">{pass}</div>

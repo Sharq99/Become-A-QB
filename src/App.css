@@ -1,5 +1,5 @@
 body {
-  background-image: url("pics/NFL.png");
+  background-image: url("./components/pics/NFL.png");
 }
 
 .score-card {
@@ -37,6 +37,7 @@ body {
 .pass {
   font-size: 90px;
   margin-top: 30px;
+  font-weight: bolder;
 }
 
 .pass-d {
@@ -44,7 +45,8 @@ body {
 }
 
 .font-p {
-  color: #825736;
+  color: #fad25a;
+  /* background-image: url(""); */
 }
 
 .font-card {
@@ -139,7 +141,7 @@ body {
 .btn-specs {
   align-items: center;
   appearance: none;
-  background-image: url("https://previews.123rf.com/images/scenery1/scenery11709/scenery1170900111/85358108-natural-background-of-green-grass-small-grass-football-ground.jpg?fj=1");
+  background-image: url("./components/pics/Feild.png");
   border-radius: 4px;
   border-width: 0;
   box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,
